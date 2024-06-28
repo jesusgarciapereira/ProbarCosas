@@ -57,14 +57,15 @@ public class TrabajoArray {
 			}
 		}
 
-		// La muestro de nuevo
-		for (int[] fila : perfectArray) {
-			for (int numero : fila) {
-				System.out.print(numero + "\t");
+		if (0b10 == 2) {
+			// La muestro de nuevo
+			for (int[] fila : perfectArray) {
+				for (int numero : fila) {
+					System.out.print(numero + "\t");
+				}
+				System.out.println();
 			}
-			System.out.println();
 		}
-
 	}
 
 }
